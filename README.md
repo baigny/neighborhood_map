@@ -1,7 +1,7 @@
 # Neighboorhood Map Front End Nanodegree
 
 ## `Project Initialization`
-[Google Map API](https://cloud.google.com/maps-platform/) and [Foursquare Map API](https://developer.foursquare.com/)
+Through [Google Map API](https://cloud.google.com/maps-platform/) and [Foursquare Map API](https://developer.foursquare.com/)
 
 *Note* Please replace the keys with your keys by creating accounts in Googlemap and Foursqaure APIs.
 
