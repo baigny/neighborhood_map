@@ -11,10 +11,10 @@ class List extends React.Component{
 			
 			<div id="sideBars">
 				<h2>Locations</h2>
-				<input type="text" autoFocus={true} tabindex="0" role="list" placeholder="Type hotel's Name"id="search" value ={this.props.queryString} onChange={ (e)=> this.props.handleChange(e.target.value)}/>
+				<input type="text" autoFocus={true} tabIndex="0" role="search" placeholder="Type hotel's Name"id="search" value ={this.props.queryString} onChange={ (e)=> this.props.handleChange(e.target.value)}/>
 					<ol>
 						{ this.props.locations.map(location =>(
-						 <li key={location.venue.id}>
+						 <li role="list" key={location.venue.id}>
 							<div>
 								<p className="placeName">Name:<a href="./#" onClick={() =>this.props.handleClick(location, window.markers)}>{location.venue.name}</a></p>
 								<p className="addressName"> Address:{location.venue.location.address}</p>
