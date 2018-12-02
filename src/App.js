@@ -25,6 +25,7 @@ class App extends Component {
     const API = 'AIzaSyCfx6mLydsTd_YclVPsUzPbUc0X5S44fNk';
     mapScript.src = `https://maps.googleapis.com/maps/api/js?key=${API}&callback=initMap`;
     mapScript.defer=true;
+    mapScript.async = true;
     return mapScript;
   }
   render() {
