@@ -7,15 +7,29 @@ Through [Google Map API](https://cloud.google.com/maps-platform/) and [Foursquar
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm start`
+# Starting the Development Mode
 
-Runs the app in the development mode.
+## `npm install`
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your favourite browser.
+Run the above command to install npm in the project folder
 
+## `npm start`
+
+Run npm start to start a development server.
+Open http://localhost:3000 to view it in the browser.
 The page will reload if you make edits.
-
 You will also see any lint errors in the console.
+
+## `npm test`
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
+
+## `npm run build`
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
+
 
 # `Project Functionality`
 1. Map Loader
