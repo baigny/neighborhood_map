@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from "./components/Header";
 import Content from "./components/Content";
+import MenuImg from './img/Hamburger_icon.png'
 
 class App extends Component {
   initMap() {
@@ -33,6 +34,11 @@ class App extends Component {
     return (
       
        <div className="App">
+       <div id='hamburger_menu'>
+       <img src={MenuImg} onClick={() => {
+         document.getElementById('sideBars').classList.toggle('show');
+       }} alt='menu'/>
+			</div>
         <Header/>
         <Content/>
        </div>

@@ -27,7 +27,7 @@ class Content extends React.Component {
     for (let i = 0; i < markers.length; i++) {
       if (location.venue.id === markers[i].title) {
         let content = this.prepareContent(location);
-
+           document.getElementById('sideBars').classList.toggle('show');
         markers[i].setAnimation(window.google.maps.Animation.BOUNCE);
         setTimeout(function() {
           markers[i].setAnimation(null);

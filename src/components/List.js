@@ -9,7 +9,8 @@ class List extends React.Component{
 		
 			return (
 			
-			<div id="sideBars">
+			<div className='sidebar' id="sideBars">
+			
 				<h2>Locations</h2>
 				<input type="text" autoFocus={true} tabIndex="0" role="search" placeholder="Type hotel's Name"id="search" value ={this.props.queryString} onChange={ (e)=> this.props.handleChange(e.target.value)}/>
 					<ol>
